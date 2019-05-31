@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Pcb</string>
+    <string name="action_sign_in_short">Регистрация</string>
+    <string name="minimum_password">Пароль должен содержать миниму 6 символов!</string>
+    <string name="auth_failed">Авторизация не пройдена, неверный пароль или логин!</string>
+    <string name="hint_email">Введите email</string>
+    <string name="hint_password">Введите пароль</string>
+    <string name="btn_login">Войти</string>
+    <string name="btn_link_to_register">Нет акаунта ?Зарегистрироваться!</string>
+    <string name="btn_link_to_login">У меня есть аккаунт. Войти!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Востановление пароля</string>
+    <string name="btn_reset_password">Сброс</string>
+    <string name="btn_back"><![CDATA[<<Назад]]></string>
+    <string name="btn_sign_out">Выйти</string>
+    <string name="lbl_forgot_password">Забыли пароль?</string>
+</resources>
+
+

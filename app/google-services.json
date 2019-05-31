@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "289921111982",
+    "firebase_url": "https://pcbfirebaseproject-e6880.firebaseio.com",
+    "project_id": "pcbfirebaseproject-e6880",
+    "storage_bucket": "pcbfirebaseproject-e6880.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289921111982:android:912ef0cffa23bd09",
+        "android_client_info": {
+          "package_name": "com.example.pcb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289921111982-ha69scm0lpck8beu6s60ajjpfeks0l6p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pcb",
+            "certificate_hash": "9cc86b289302b7866950f636ce9fa5eb56f3522f"
+          }
+        },
+        {
+          "client_id": "289921111982-lgumfh8o7h8obo3hccsh9nsv7fc70rku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKxo9M46TLffW8C8cjBwqyNYzHvTO9NPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289921111982-lgumfh8o7h8obo3hccsh9nsv7fc70rku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

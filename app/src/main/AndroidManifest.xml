@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pcb">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mt"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SamsungS9"></activity>
+        <activity android:name=".SamsungS8" />
+        <activity android:name=".SamsungS7" />
+        <activity android:name=".SamsungS6" />
+        <activity android:name=".SamsungS5" />
+        <activity android:name=".iphone6sp" />
+        <activity android:name=".iph6Plus" />
+        <activity android:name=".iph6s" />
+        <activity android:name=".iphx" />
+        <activity android:name=".iph8" />
+        <activity android:name=".iph7" />
+        <activity android:name=".iph6" />
+        <activity android:name=".ip5s" />
+        <activity android:name=".ip5" />
+        <activity android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".SignupActivity" />
+    </application>
+
+</manifest>

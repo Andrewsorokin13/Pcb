@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fraim"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:clipToPadding="false"
+        android:background="#EEDFDF"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <!--- глава текстом обьяснение чтения схем -->
+    <android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="7dp"
+    app:cardCornerRadius="9dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Как читать схемы мобильных телефонов"
+            android:textAlignment="center"
+            android:textColor="#0505F5"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Типы схем мобильных телефонов:"
+            android:textAlignment="center"
+            android:textColor="#3F51B5"
+            android:textSize="18sp" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="11dp"
+        app:cardCornerRadius="12dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1) Блок-схема;"
+                android:textColor="#673AB7" />
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/damion"
+                android:text="Форма блока используется, чтобы дать приблизительный обзор работы мобильного телефона, чтобы было удобней осваивать структуру и принцип работы мобильного телефона, чтобы понять электрическую схему.  "
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="4dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/blocvan"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="11dp"
+        app:cardCornerRadius="12dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2) Схематическая диаграмма всей электромеханической системы;"
+                android:textColor="#673AB7" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/damion"
+                android:text="Cимвол электронного компонента четко показывает принцип соединения и работы каждого компонента в мобильном телефоне, который удобен для анализа схемы и неисправностей во время обслуживания.  "
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="4dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/bloc"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/damion"
+                android:text="1)Прежде чем читать схемы, вы должны сначала изучить основу электронных знаний, ознакомиться с символами, характеристиками и принципами действия различных электронных компонентов, подключением электронных компонентов в цепи, соотношением между током, напряжением и сопротивлением в цепи (закон Ома)."
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="11dp"
+        app:cardCornerRadius="12dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3)Цветная карта."
+                android:textColor="#673AB7" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/damion"
+                android:text="Фотографии мобильного телефона, удобные для обслуживания, отсутствующие компоненты платы управления, несоосность, ориентация компонентов."
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="4dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/shematel"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="11dp"
+        app:cardCornerRadius="12dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Принцип чтения принципиальной схемы мобильного телефона:"
+                android:textAlignment="center"
+                android:textColor="#3F51B5 "
+                android:layout_marginTop="5dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/damion"
+                android:text="2)Сначала прочтите блок-схему и получите представление о структуре устройства (например, о структуре источника питания, схеме синхронизации), а затем проанализируйте схему в соответствии с принципами, которые были изучены."
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+            <TextView
+            android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/damion"
+            android:text="3) При чтении карты вы должны сначала понять схему питания постоянного тока, а затем понять путь сигнала переменного тока."
+            android:textAlignment="viewStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/damion"
+                android:text="4) Схема подключения мобильного телефона является регулярной, общий источник питания находится в левом нижнем углу, а управление - в правом нижнем углу."
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+        <!---другая глава текста с обзором работы айфона  -->
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:layout_marginTop="7dp"
+            app:cardCornerRadius="9dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Последовательность включения Телефона(пример iphone5) "
+                    android:textAlignment="center"
+                    android:textColor="#0505F5"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Сначала просмотрите общую последовательность включения IPHONE5, чтобы проанализировать последовательность включения питания."
+                    android:textAlignment="center"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ip"
+                    android:layout_marginTop="6dp"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="11dp"
+        app:cardCornerRadius="12dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="1.PMU питается от аккумулятора."
+                android:textAlignment="viewStart"
+                android:textColor="#3F51B5 " />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pm" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="11dp"
+            app:cardCornerRadius="12dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="2.Кристаллический генератор 32.768K начинает вибрировать."
+                    android:textAlignment="viewStart"
+                    android:textColor="#3F51B5 " />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/kris" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="11dp"
+            app:cardCornerRadius="12dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="3.PMU выходной мощности в режиме ожидания 1,8В."
+                    android:textAlignment="viewStart"
+                    android:textColor="#3F51B5 " />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="5.PMU получает основное питание VCC_MAIN."
+                    android:textAlignment="viewStart"
+                    android:textColor="#3F51B5 " />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pmu1" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="11dp"
+            app:cardCornerRadius="12dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="7. PMU посылает открытый сигнал для включения питания центрального процессора."
+                    android:textAlignment="viewStart"
+                    android:textColor="#3F51B5 " />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pro" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="11dp"
+            app:cardCornerRadius="12dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="8. Выходное напряжение центрального процессора PMU."
+                    android:textAlignment="viewStart"
+                    android:textColor="#3F51B5 " />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/vih" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="11dp"
+            app:cardCornerRadius="12dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text=" 9.Кварцевый генератор 24M начинает обеспечивать мастер-часы для процессора."
+                    android:textAlignment="viewStart"
+                    android:textColor="#3F51B5 " />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/kwa" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="11dp"
+            app:cardCornerRadius="12dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text=" 10. PMU задерживает выпуск сброса CPU."
+                    android:textAlignment="viewStart"
+                    android:textColor="#3F51B5 " />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/sd" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="11dp"
+            app:cardCornerRadius="12dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="11. Нормальная работа процессора после завершения самотестирования, выданного непрерывным сигналом мощности"
+                    android:textAlignment="viewStart"
+                    android:textColor="#3F51B5 " />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/dss" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <!---другая глава текста с обзором диагностики -->
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            app:cardCornerRadius="9dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Процесс диагностики неисправности смартфона выглядит следующим образом:"
+                    android:textAlignment="center"
+                    android:textColor="#0505F5"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1) Спросите о неисправности и о том, был ли он ранее отремонтирован. Если ремонт был выполнен, спросите пользователя, какая неисправность была ранее отремонтирована. Затем проверьте, произошла ли та же самая ошибка снова, чтобы выяснить масштаб и причину неисправности."
+                    android:textAlignment="viewStart"
+                    android:textColor="#3F51B5 "
+                    android:layout_marginTop="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2) Визуальный осмотр.Во-первых, внимательно осмотрите корпус мобильного телефона, на наличие следов поломки, ударов и проникновение воды, спросите пользователя о причине этих следов и узнайте, падал ли мобильный телефон. Существуют различные типы сбоев в работе мобильных телефонов, которые необходимо очищать спиртом или четыреххлористым углеродом. Телефоны с сильным проникновением воды могут повредить интегральные схемы или печатные платы"
+                    android:textAlignment="viewStart"
+                    android:textColor="#3F51B5 "
+                    android:layout_marginTop="5dp"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@drawable/pic" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3) Проверка питания.Во-первых, внимательно ознакомьтесь с информацией на экране телефона, чтобы убедиться, что мощности аккумулятора достаточно и уровень сигнала нормальный."
+                    android:textAlignment="viewStart"
+                    android:textColor="#3F51B5 "
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Во-вторых, если индикация уровня сигнала на экране мобильного телефона отсутствует, и отображается контрольная карта, вы можете использовать заблаговременно исправную SIM-карту для вставки в мобильный телефон. Если мобильный телефон работает нормально, это означает, что SIM-карта работает правильно. Если таким образом сбой телефона не может быть решен, значит в телефонной цепи имеется неисправность."
+                    android:textAlignment="viewStart"
+                    android:textColor="#3F51B5 "
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4) Откройте корпус для дальнейшего визуального осмотра. В это время мобильный телефон не должен включаться. Выньте печатную плату и внимательно наблюдайте за ней под лампой увеличительного стекла, как показано на рисунке 3."
+                    android:textAlignment="viewStart"
+                    android:textColor="#3F51B5 "
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4) Откройте корпус для дальнейшего визуального осмотра. В это время мобильный телефон не должен включаться. Выньте печатную плату и внимательно наблюдайте за ней под лампой увеличительного стекла, как показано на рисунке 3."
+                    android:textAlignment="viewStart"
+                    android:textColor="#3F51B5 "
+                    android:layout_marginTop="10dp"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:src="@drawable/ttt"
+                    android:layout_marginTop="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Прежде всего, обратите внимание на то, что линии печатной платы не закорочены, не склеены, не разрушена пайка, а резисторы и конденсаторы не отваливаются."
+                    android:textAlignment="viewStart"
+                    android:textColor="#3F51B5 "
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Затем осмотрите, имеет ли системная плата выпуклости или трещины, и есть ли обесцвечивание в частях, где находятся сопротивления и конденсаторы."
+                    android:textAlignment="viewStart"
+                    android:textColor="#3F51B5 "
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Воспользуйтесь этой возможностью для визуального осмотра, чтобы понять расположение общей структуры, компоновки и распределения основных компонентов и подготовиться к следующей проверке. В некоторых случаях ошибки могут быть обнаружены во втором визуальном осмотре."
+                    android:textAlignment="viewStart"
+                    android:textColor="#3F51B5 "
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5) Используйте внешний источник питания для печатной платы мобильного телефона и проверьте, не является ли температура компонентов на плате мобильного телефона ненормальной. Используйте метод повышения температуры для решения проблемы,"
+                    android:textAlignment="viewStart"
+                    android:textColor="#3F51B5 "
+                    android:layout_marginTop="10dp"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/sdsddd" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7) После обнаружения причины, устраните неисправность и выполните проверку при включении."
+                    android:textAlignment="viewStart"
+                    android:textColor="#3F51B5 "
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7) После обнаружения причины, устраните неисправность и выполните проверку при включении."
+                    android:textAlignment="viewStart"
+                    android:textColor="#3F51B5 "
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Различные производители, разные модели и разные номера версий должны использовать квалифицированные и обычные чипы и компоненты той же версии, чтобы избежать замены разных версий чипов. Не используйте неквалифицированные, пиратские, контрабандные чипы и компоненты, чтобы избежать более сложных проблем. Опять же, очень важно правильно проанализировать схему и правильно определить ошибку. Очень важно точно определить местоположение ошибки и попытаться избежать ошибочной оценки."
+                    android:textAlignment="viewStart"
+                    android:textColor="#3F51B5 "
+                    android:layout_marginTop="10dp"/>
+
+
+
+
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

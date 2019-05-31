@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ShematicFragment"
+    android:background="#EEDFDF">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#EEDFDF">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:text="Схемы мобильных телефонов"
+                android:textAlignment="center"
+                android:textSize="24dp" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="202dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="5dp"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="215dp"
+                        android:text="Iphone "
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="136dp"
+                        android:layout_marginTop="25dp"
+                        android:src="@drawable/iphones" />
+
+                    <Button
+                        android:id="@+id/bt_eshe"
+                        android:layout_width="107dp"
+                        android:layout_height="31dp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="160dp"
+                        android:layout_marginRight="9dp"
+                        android:background="@drawable/bg1"
+                        android:text="more" />
+
+                    <Button
+                        android:id="@+id/bt_bac"
+                        android:layout_width="107dp"
+                        android:layout_height="31dp"
+                        android:layout_marginLeft="106dp"
+                        android:layout_marginTop="160dp"
+                        android:layout_marginRight="9dp"
+                        android:background="@drawable/bg1"
+                        android:text="back" />
+                </FrameLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:id="@+id/liner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/btn_iph5"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/baton_phone"
+                    android:text="Iphone 5"
+                    android:textColor="#3333C0" />
+
+                <Button
+                    android:id="@+id/btn_iph5s"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/baton_phone"
+                    android:text="Iphone 5s" />
+
+                <Button
+                    android:id="@+id/btn_iph6"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/baton_phone"
+                    android:text="Iphone 6" />
+                <Button
+                    android:id="@+id/btn_iph6p"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/baton_phone"
+                    android:text="Iphone 6plus" />
+
+                <Button
+                    android:id="@+id/btn_iph6s"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/baton_phone"
+                    android:text="Iphone 6s" />
+                <Button
+                    android:id="@+id/btn_iph6sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/baton_phone"
+                    android:text="Iphone 6splus" />
+
+                <Button
+                    android:id="@+id/btn_iph7"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/baton_phone"
+                    android:text="Iphone 7" />
+
+                <Button
+                    android:id="@+id/btn_iph8"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/baton_phone"
+                    android:text="Iphone 8plus" />
+
+                <Button
+                    android:id="@+id/btn_iphX"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/baton_phone"
+                    android:text="Iphone X" />
+
+
+            </LinearLayout>
+            <android.support.v7.widget.CardView
+                android:layout_width="411dp"
+                android:layout_height="202dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="5dp"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="0dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="215dp"
+                        android:text="Samsung "
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="136dp"
+                        android:layout_marginTop="25dp"
+                        android:src="@drawable/sams" />
+
+                    <Button
+                        android:id="@+id/bt_esh"
+                        android:layout_width="107dp"
+                        android:layout_height="31dp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="160dp"
+                        android:layout_marginRight="9dp"
+                        android:background="@drawable/bg1"
+                        android:text="more" />
+
+                    <Button
+                        android:id="@+id/bt_bak"
+                        android:layout_width="107dp"
+                        android:layout_height="31dp"
+                        android:layout_marginLeft="106dp"
+                        android:layout_marginTop="160dp"
+                        android:layout_marginRight="9dp"
+                        android:background="@drawable/bg1"
+                        android:text="back" />
+                </FrameLayout>
+
+            </android.support.v7.widget.CardView>
+            <LinearLayout
+                android:id="@+id/liner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/btn_samS5"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/baton_phone"
+                    android:text="Samsung S5"
+                    android:textColor="#3333C0" />
+
+                <Button
+                    android:id="@+id/btn_samss6"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/baton_phone"
+                    android:text="Samsung S6" />
+
+                <Button
+                    android:id="@+id/btn_samsS7"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/baton_phone"
+                    android:text="Samsung S7" />
+
+                <Button
+                    android:id="@+id/btn_samss8"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/baton_phone"
+                    android:text="Samsung S8" />
+
+                <Button
+                    android:id="@+id/btn_samsS9"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/baton_phone"
+                    android:text="Samsung S9" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
